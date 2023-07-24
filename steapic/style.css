@@ -6,29 +6,34 @@ body{
     padding-left: 400px;
 }
 
+.ini{
+  padding-left: 850px;
+}
+
 input{
     background-color: rgb(00, 150, 150);
 }
 
-nav {
+div {
     background-color: rgb(5, 20, 20);
     color: #fff;
     padding: 10px;
     border-radius: 10px;
+    margin-top: 1.5%;
   }
 
-  nav ul {
+  div ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
 
-  nav li {
+  div li {
     display: inline;
     margin-right: 10px;
   }
 
-  nav a {
+  div a {
     color: #fff;
     text-decoration: none;
   }
@@ -55,4 +60,55 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
+  width: 110%;
+  margin-left: -1%;
+}
+
+nav {
+  border: 2px solid rgb(00, 60, 60);
+  background-color: #333;
+  color: #fff;
+  padding: 2px;
+  width: 110%;
+  margin: -1%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li h1{
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #919191;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: background-color 0.3 ease;
+  margin-top: 20px;
+}
+
+.button:hover{
+  background-color: #ffffff;
+}
+
+.texto{
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 50%;
 }
